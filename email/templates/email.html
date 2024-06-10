@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Summary</title>
+    <style>
+        /* CSS for loader animation */
+        .loader {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Additional CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        input[type="number"] {
+            padding: 8px;
+            width: 200px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #42d8f6;
+            color: #270505;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+
+        #summaryDisplay {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Email Summary</h1>
+    <form id="summaryForm">
+        <label for="threadId">Enter Thread ID:</label>
+        <input type="number" id="threadId" name="threadId" required>
+        <button type="submit" id="generateBtn">Generate Summary</button>
+        <div class="loader" id="loader" style="display: none;"></div>
+    </form>
+
+    <div id="summaryDisplay"></div>
+
+    <script>
+        // Function to handle form submission
+        document.getElementById("summaryForm").addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent default form submission
+            const threadId = document.getElementById("threadId").value; // Get thread ID from input
+            showLoader(); // Show loader animation
+            generateSummary(threadId); // Call function to generate summary
+        });
+
+        // Function to show loader animation
+        function showLoader() {
+            document.getElementById("generateBtn").style.display = "none";
+            document.getElementById("loader").style.display = "block";
+        }
+
+        // Function to hide loader animation
+        function hideLoader() {
+            document.getElementById("generateBtn").style.display = "inline-block";
+            document.getElementById("loader").style.display = "none";
+        }
+
+        // Function to send request to server and generate summary
+        function generateSummary(threadId) {
+            fetch('/generate_email_summary', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: `threadId=${threadId}`
+            })
+                .then(response => response.json()) // Parse JSON response
+                .then(data => {
+                    // Display summary in the HTML element with ID 'summaryDisplay'
+                    document.getElementById("summaryDisplay").innerText = data.summary;
+                    hideLoader(); // Hide loader animation
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    hideLoader(); // Hide loader animation on error
+                });
+        }
+    </script>
+</body>
+
+</html>
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Summary</title>
+    <style>
+        /* CSS for loader animation */
+        .loader {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Additional CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 20px;
+            color: #000;
+            /* Black text color */
+        }
+
+        h1 {
+            color: #000;
+            /* Black text color */
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #000;
+            /* Black text color */
+        }
+
+        input[type="number"],
+        input[type="file"],
+        #summaryDisplay {
+            padding: 8px;
+            width: 180px;
+            /* Decreased width */
+            margin-bottom: 10px;
+            border: none;
+            /* Removed border */
+            border-radius: 5px;
+        }
+
+        button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+
+        /* #uploadBox,
+        #summaryDisplay {
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #fff; */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Email Summary</h1>
+
+    <div id="uploadBox">
+        <label for="fileUpload">Upload File:</label>
+        <input type="file" id="fileUpload" name="fileUpload">
+    </div>
+
+    <form id="summaryForm">
+        <label for="threadId">Enter Thread ID:</label>
+        <input type="number" id="threadId" name="threadId" required>
+        <button type="submit" id="generateBtn">Generate Summary</button>
+        <div class="loader" id="loader" style="display: none;"></div>
+    </form>
+
+    <div id="summaryDisplay"></div>
+
+    <script>
+        // Function to handle form submission
+        document.getElementById("summaryForm").addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent default form submission
+            const threadId = document.getElementById("threadId").value; // Get thread ID from input
+            showLoader(); // Show loader animation
+            generateSummary(threadId); // Call function to generate summary
+        });
+
+        // Function to show loader animation
+        function showLoader() {
+            document.getElementById("generateBtn").style.display = "none";
+            document.getElementById("loader").style.display = "block";
+        }
+
+        // Function to hide loader animation
+        function hideLoader() {
+            document.getElementById("generateBtn").style.display = "inline-block";
+            document.getElementById("loader").style.display = "none";
+        }
+
+        // Function to send request to server and generate summary
+        function generateSummary(threadId) {
+            fetch('/generate_email_summary', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: `threadId=${threadId}`
+            })
+                .then(response => response.json()) // Parse JSON response
+                .then(data => {
+                    // Display summary in the HTML element with ID 'summaryDisplay'
+                    document.getElementById("summaryDisplay").innerText = data.summary;
+                    hideLoader(); // Hide loader animation
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    hideLoader(); // Hide loader animation on error
+                });
+        }
+    </script>
+</body>
+
+</html> -->

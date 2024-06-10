@@ -1,0 +1,89 @@
+
+Thread ID: 1
+Summarized Text:The document contains a series of email correspondences discussing the Master Termination Log. The document contains a list of all terminations received through January 25, 2002, and also notes that certain terminations have been marked as "Y" for valid. The document also includes a note from Kim Theriot to Stephanie Panus to remove her name and Melissa Murphy's from the distribution list. Additionally, there are several emails from Kelly to various recipients, asking them to look into the termination of the Hope Gas project and the $66 MM set-apart offer.
+
+Thread ID: 2
+Summarized Text:Carol St Clair has scheduled a lunch meeting for Friday, May 5, 2000, to discuss in detail how the ISDA and CSA Masters and Schedules work. The meeting is scheduled for 12:00 p.m. to 1:30 p.m. in 30C2. The meeting is open to all members of the group, excluding Marie and Shari. There has been an addition to the group, with Ed Sacks, Brad Schneider, and Wendy LeBrocq. However, Mark Taylor has stated that he will not be able to attend.
+
+Thread ID: 3
+Summarized Text:The document contains a series of email exchanges between several individuals, including Benjamin Rogers, Brian Hendon, Bruce Rudy, and Robin Rodrigue. The emails discuss various topics such as the status of their respective academic applications, a party planned for the summer, and the ownership of a furniture item. The conversation also includes a humorous exchange about the ownership of the furniture. The new addresses provided by the individuals are in Denver, Colorado, and Chicago, Illinois.
+
+Thread ID: 4
+Summarized Text:Phillip M Love and Julie Emilia are discussing a file that contains data. Phillip M Love has found that the data provided is from the previous day's day. He suggests that the current prices for the gas day of the next day should be set each day at approximately 12:10. He asks Julie to clarify this concept if it makes sense. He also expresses satisfaction with the current file and thanks her for her help.
+
+Thread ID: 5
+Summarized Text:Kay Mann and Reagan Rorschach are discussing the submission of a long form for a long-term deal with a third party. They are considering several issues related to the form, including the validity of "unit contingent" power deals, compliance with Mississippi law, billing and payment netting, and miscellaneous. They are also discussing the potential issues with the ILA and the potential for incorporating these issues into the long-term deal. The document also contains a draft of the long form, which is being discussed internally and to the cities.
+
+Thread ID: 6
+Error: InvalidDocument, Appropriate summarization cannot be generated.
+
+Thread ID: 7
+Summarized Text:The document contains a series of email correspondences from Sara Shackleton to various individuals, discussing the status of Canadian utilities. The initial email was sent to Eleanor Fraser, who later corrected that it was sent to the wrong person. The issue in question is related to Canadian regulated entities. The emails also express the urgency to send out the Canadian utilities and the need to resolve any related legal issues.
+
+Thread ID: 8
+Summarized Text:Jeff Dasovich from Enron Corp. sent an email to several recipients, including Scott Laughlin, suggesting a golf game in Napa over the weekend. He mentioned that his colleagues, Nancy and Eldon, would be together and suggested the game on Saturday or Sunday. However, Scott Laughlin had to change his plans, stating he would be available for golf on either Saturday or Sunday. He also mentioned that he had received a check for $150. The email thread also included a reminder about the confidentiality of the email and the non-disclosure agreement.
+
+Thread ID: 9
+Summarized Text:The document contains a series of email exchanges between several individuals. Benjamin Rogers expresses his intention to run the NYC Marathon and places a wager on his ability to do so. He also mentions his plans to attend the Final Four and open day at Cinergy Field. Mark Guzman and Katie Trullinger also exchange messages, with Guzman joking about his financial situation and Trullinger mentioning a similar situation with John Brown. Joe Parks responds to Erik Wollam's email about a rental of a trailer, stating he was unable to make contact due to being busy.
+
+Thread ID: 10
+Summarized Text:The document contains a series of email exchanges between James Saunders, Rod Rhaysle, Howard, Kevin A. Khoward, and Tracy Tgeaco. The conversation revolves around the identification of components in financial statements, with Saunders suggesting two methods: supporting consolidating statements or separating those components and re-prepared as a legal entity only. Hayslett questions the impact of non-NGN stuff in the financials and asks for an explanation versus redo. Saunders responds by suggesting a redo, which Hayslett agrees with, but only as a last resort.
+
+Thread ID: 11
+Summarized Text:The House of Lords has notified Enron that they will make their decision in the CATS litigation on 4 April, six weeks earlier than expected. Enron's counsel, Jonathan Sumption, believes this may be a favourable sign for Enron, estimating a 60% likelihood of success. However, the House of Lords ruled against Enron, with an estimated $155-160 million in damages. The decision was criticized for not applying the contract provisions and for rejecting Enron's restitution issue. Despite the loss, Enron expressed gratitude for the support received over the past six years.
+
+Thread ID: 12
+Summarized Text:Frazier King Jr. is requesting Miranda Southard to prepare new Corporate Officers and Directors org charts for TW and NNG to add Kevin A. Howard. He also requests information about Howard's title, any reports, and his inclusion on other org charts. King Jr. also requests new job descriptions for TW and NGB. The effective date of Howard's appointment is November 12, 2001, and King Jr. requests updates on his progress.
+
+Thread ID: 13
+Summarized Text:The document contains a series of email exchanges discussing the possibility of Enron Television (TW) providing contract operations services for Citizens Utilities, which is in the process of selling off its assets. The conversation revolves around the potential legal and regulatory issues, including the need for additional equipment and the challenge of balancing pressure between pipes. The document also mentions the possibility of a joint budget between Operations and Market Services. The discussion also touches on the possibility of Enron Asset Management Resources (EAMR) looking into this opportunity.
+
+Thread ID: 14
+Summarized Text:The California Independent System Operator (ISO) is expected to file a petition with federal regulators to force generators to bid 70% of their supply into the forward market in an effort to reduce wholesale power costs in the state. The filing calls for FERC to set a "just and reasonable" rate for generators and major out-of-state generators would have to enter into forward contracts at FERC mandated rates. The ISO action will be taken without approval from the grid conference. The announcement of the ISO's expected filing came as a surprise to the state's Electricity Oversight Board.
+
+Thread ID: 15
+Summarized Text:The document contains a series of email exchanges between Monica Lande, Kate Symes, Kimberly Allen, and Robert Badeer regarding the topic of Index forwards/swaps. The main topic of discussion is the status of outstanding deals with the PX, which are being handled by Bob Badeer. Lande has provided a list of these deals, which are mostly the same as those found in Kimberly Allen's spreadsheet. She also mentions that Bob Badeer has taken the lead in managing these negotiations and has assured Lande that all deals liquidated within the month have been updated.
+
+Thread ID: 16
+Summarized Text:Mark Dilworth is seeking a list of customer Global IDs for US customers that will be allowed to see credit derivatives quotes on EnronOnline. Tana Jones informs him that Germany is being added to the approved list for trading credit derivatives, while several European jurisdictions are not. For banks incorporated in non-approved jurisdictions, it may be possible to trade out of a branch located in an approved jurisdiction. Canada is also not an approved jurisdiction for credit derivatives.
+
+Thread ID: 17
+Summarized Text:The document contains a series of email exchanges between Tana Jones, Mark Taylor, Anne C Koehler, Gene Diers, and Mark holdsworth, discussing the status of online contracts at Enron. Jones has attached a list of contracts she is aware of and is seeking responses from the team. Taylor, the Vice President and General Counsel, is seeking responses from employees who have a power of attorney, control, or financial interest in any related commodity futures account. The document also includes an email from John to colleagues about his upcoming marathon run for leukemia research and a reminder about the company's values and expectations.
+
+Thread ID: 18
+Summarized Text:The document is a series of email correspondences between an Exchange System Administrator and a recipient named Joe Stepenovitch at fullenweider.com. The messages are being relayed to the recipient's email address at the domain fullenweider_com. The messages were successfully delivered to the recipient' The document contains a series of in-line attachments, each with a specific message type (C.DTF). The sender of the messages is an individual who has a direct connection to the recipient''s domain.
+
+Thread ID: 19
+Summarized Text:Sara Shackleton from Enron Wholesale Services is reviewing Michelle Sternberg's request for changes to the final form of the Enron/Alecon Energy Supply and Sale Agreement (ISDA). Sternberg has attached a blackline incorporating changes to the Notice and Set-Off provisions and suggests that if the changes are acceptable, they can be incorporated into the form of agreement. However, she also states that they cannot agree to eliminate set-off for their non-regulated affiliates. The conversation also touches on the need to preserve setoff with respect to ENA's affiliates and the need to review the Master Energy Purchase and Sale Agreement for the previously negotiated set-off language.
+
+Thread ID: 20
+Summarized Text:The document contains a series of email exchanges discussing the compliance of Northern Natural Gas with the marketing affiliate rule. The main issue is the appointment of a new President, Northern Pipeline Sales Division, in the absence of an officer or director of a marketing affiliate or Northern. The team discusses the suitability of Andy Fastow, who was appointed because he was not an officer or director in either company. However, concerns are raised about Fastow's potential access to transportation/capacity information from his previous role as CFO of Enron Corp. The team decides to postpone contacting Jeff McMahon due to these concerns.
+
+Thread ID: 21
+Summarized Text:The document contains a series of email exchanges discussing the handling of an expense related to a trip taken by Kyle Norosky, an employee of Enron Corp Business controls. The team is discussing whether the expense should be part of the corporate allocation or if it should be a direct charge. They also discuss whether an agreement was made with John Brindle to cover Kyle's expenses. The total cost of the trip was $1603.28. The document also includes queries about the company's policy on accepting direct charges for corporate assistance.
+
+Thread ID: 22
+Summarized Text:The document contains a series of email correspondences discussing an important organizational change at Enron. Audrey Robertson sent an email to several recipients, informing them that due to the confidentiality of the announcement, the Notes Team could not handle email distribution. She advised forwarding the message instead and asked for any questions to be directed to Lisa Costello. Drew Fossum shared that Dan, who was present during the discussion, seems to be enthusiastic about joining the team. Emily Sellers sent an email to multiple recipients, noting that the announcement would be sent to all field locations via burst fax.
+
+Thread ID: 23
+Summarized Text:The document contains a series of email exchanges between Laurel Adams, Sara Shackleton, Selena Gonzalez, Samantha Boyd, and Stephanie Panus regarding the establishment of an additional terminal in London under the same contract as the one they currently have. Sara has confirmed that she has the necessary Instinet files and has received an amendment to place additional access at Enron House in London. She has also provided two additional Instinet Access IDs for the project. The document also mentions that the broker'futures agreements are in red files for visibility.
+
+Thread ID: 24
+Summarized Text:The document contains a series of email exchanges between Jorge A Garcia, Sara Shackleton, Rod Nelson, Karolina Moran, and others, discussing the process and implications of a transaction involving Enron Teeside Operating Limited ("ETOL"). The team is considering the terms of the transaction, including the use of the Enron Corp guarantee in favor of ETOL, and the potential for an ETOL sell-off. They are also discussing the possibility of using the Enron Corp guarantee and the implications of an ETOL sell_off. The document also includes personal updates from Sara and Rod Nelson, including the birth of their second daughter, Eliza Joyce.
+
+Thread ID: 25
+Summarized Text:Tana Jones has sent an email to several individuals regarding the approval of El Paso Merchant Energy-Gas, L.P. for trading all financial products under the existing Master Agreement. The confirmation desk is advised to continue following the existing format of the El Paso Energy Marketing Company weather trades. The old "ERMS style" Master Agreement is being replaced with an ISDA Master Agreement. All products are approved for trading, except power, which is not approved for trading. Jones has also received a proposed form of assignment from El Paso regarding certain trades made between 1/14 and 1/25.
+
+Thread ID: 26
+Summarized Text:Jane M Tholt and Laurie Ellis are discussing a contract that stipulates that if a buyer does not schedule, they will pay a replacement price differential plus $.15. This would be the gas daily price, which was around $16.80 on the day of the conversation. Jane M Tholt wants the penalty billed and let Southwest Gas challenge it. Laurie Ellis has provided a manual invoice to Southwest Gas for this matter. Debra Perlingiere from Enron North America Corp.'s Legal Department is asked to call Laurie Ellis to discuss the matter.
+
+Thread ID: 27
+Summarized Text:Benjamin Rogers has been in contact with Meg Brooks, presumably from the admissions office at Texas B-School, regarding his application. He has expressed his strong desire to attend the school, citing his experiences with Enron as a strong foundation for his career. Despite a poor score on the GRE, Rogers believes his application is strong and he can compete in a competitive environment. He has also asked for information on when he will hear back from the admissions office, as his application has been with them since January 21st.
+
+Thread ID: 28
+Summarized Text:Matthew Lenhart discusses the competitive nature of the Big 12 Conference, suggesting that it should be renamed the Big 2 due to its more competitive nature. He also suggests the need for a new rivalry to boost the team's performance. Lenhart shares his New Year's experiences at a club in Prague and suggests that Lisa Gillette should throw a National Championship party. He also expresses his dissatisfaction with being in a flat location for New Year's.
+
+Thread ID: 29
+Summarized Text:Adnan Patel sent several emails to various individuals regarding the approval of a Click paper credit for RAG American Coal Sales. He mentioned that the company had changed its name to RAG Coal Sales of America, Inc. The company's name was later changed again to RAG Coal Sales. The Calpine Power record would be inactivated if not given for RAG. The company is also merging with Calpine Energy Services, with the survivor to be announced on the 1st of the next month. The names of the two companies were changed as per a Certificate of Amendment filed with the Delaware Secretary of State.
+
+Thread ID: 30

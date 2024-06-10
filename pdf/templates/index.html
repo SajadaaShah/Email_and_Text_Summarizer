@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Summary</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* CSS for background image */
+        body {
+            background-image: url('img\banner3.jpg');
+            /* Replace 'background.jpg' with your image path */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Montserrat', sans-serif;
+            color: #210505;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* CSS for container */
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* CSS for form */
+        #pdfForm {
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Semi-transparent background */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* CSS for loader animation */
+        .loader {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+            margin: auto;
+            margin-top: 10px;
+            display: none;
+            /* Hide loader by default */
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="color: #4a3206;">PDF Summary Generator</h1>
+        <form id="pdfForm" action="/summarize_pdf" method="post" enctype="multipart/form-data">
+            <input type="file" name="pdfFile" id="pdfFileInput" accept=".pdf">
+            <button type="submit" id="generateBtn"
+                style="background-color: #d2d6d1; color: #c25050; border: none; padding: 10px 20px; border-radius: 5px;">Generate
+                Summary</button>
+            <div class="loader" id="loader"></div> <!-- Loader element -->
+        </form>
+        <div id="summary" style="text-align: left; margin-top: 20px;"></div>
+    </div>
+
+    <script>
+        // Function to show loader animation
+        function showLoader() {
+            document.getElementById("generateBtn").style.display = "none";
+            document.getElementById("loader").style.display = "block";
+        }
+
+        // Function to hide loader animation
+        function hideLoader() {
+            document.getElementById("generateBtn").style.display = "inline-block";
+            document.getElementById("loader").style.display = "none";
+        }
+
+        // Event listener for form submission
+        document.getElementById("pdfForm").addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent default form submission
+            showLoader(); // Show loader animation
+            fetch('/summarize_pdf', {
+                method: 'POST',
+                body: new FormData(this)
+            })
+                .then(response => response.text()) // Parse response as text
+                .then(data => {
+                    document.getElementById("summary").innerText = data; // Update summary div with the generated summary
+                    hideLoader(); // Hide loader animation
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    hideLoader(); // Hide loader animation in case of error
+                });
+        });
+    </script>
+</body>
+
+</html>
